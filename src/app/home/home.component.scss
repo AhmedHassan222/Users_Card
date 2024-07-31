@@ -1,0 +1,16 @@
+.fit-content {
+    width: fit-content;
+}
+
+.link {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.box {
+    transition: all 0.3s;
+    &:hover {
+        box-shadow: 0px 0px 10px rgb(146, 146, 255) !important;
+    }
+}

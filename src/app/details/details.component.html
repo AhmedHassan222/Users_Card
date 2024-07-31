@@ -1,0 +1,22 @@
+<a routerLink="/home" class="position-absolute position-style nav-link">
+    <i class="fa fa-arrow-left fs-4  fw-bold"></i>
+    <span class="fw-bold fs-4 ms-2">Users</span>
+</a>
+<section class="vh-100 d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-5  ">
+                <div class=" py-5  d-flex justify-content-center shadow-lg">
+                    <div class="">
+                        <div class="d-flex justify-content-center">
+                            <img src="{{userDetials.avatar}}" class="w-75 " alt={{userDetials.first_name}}>
+                        </div>
+                        <p class="h6 fw-medium my-3 nav-link">Full Name : {{userDetials.first_name}} {{userDetials.last_name}}</p>
+                        <p class="h6 fw-medium">Email: {{userDetials.email}}</p>
+                        <p class="h6 fw-medium">Id: {{userDetials.id}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
